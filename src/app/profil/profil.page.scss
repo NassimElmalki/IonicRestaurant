@@ -16,9 +16,10 @@
 
 .h1Head{
     font-weight: bolder;
-    font-size:medium;
+    font-size:x-large;
     color: black;
 }
+
 
 ion-searchbar {
     margin-top: 10px;
@@ -29,8 +30,9 @@ ion-searchbar {
 }
 
 .label-input {
-    font-size: medium;
-    font-weight: bolder;
+    font-size: small;
+  font-weight: bolder;
+
   }
 
   .input-custom {
@@ -40,4 +42,22 @@ ion-searchbar {
     --padding-start: 11px;
     --padding-end: 36px;
     background-color: #EAECEE;
+    margin-top: 1px;
   }
+
+  .img {
+    border-radius: 16px;
+  }
+
+  .tt {
+      margin-top: 70px;
+      
+  }
+
+  ion-button {
+      margin-top: 60px;
+    
+      margin-left: 40px;
+      margin-right: 20px;
+  }
+
