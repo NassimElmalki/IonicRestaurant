@@ -28,7 +28,16 @@ ion-searchbar {
     margin-top: 40px;
 }
 
-.nn {
-    margin-top: 30px;
-    
-}
+.label-input {
+    font-size: medium;
+    font-weight: bolder;
+  }
+
+  .input-custom {
+    border: 1px solid #EAECEE;
+    border-radius: 16px;
+    margin-top: 10px;
+    --padding-start: 11px;
+    --padding-end: 36px;
+    background-color: #EAECEE;
+  }
