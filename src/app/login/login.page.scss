@@ -1,0 +1,29 @@
+.one{
+  background-color: #32928f;
+  //background-image: url(../../assets/icon/background.png),-webkit-linear-gradient(10deg, #32928f 50%, #ffffff 50%);
+  background-image: url(../../assets/icon/background.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 100%;
+}
+
+.login-content{
+  width: 44%;
+  top:44%;
+  ion-input{
+    margin-top: 20px;
+    --background: #eDeDeD;
+    border-radius: 25px;
+    --padding-start:20px;
+  }
+  ion-button{
+    margin-top: 20px;
+    --border-radius: 25px;
+    margin-left: 17px;
+
+  }
+  display: block;
+  position: absolute;
+  right: 20px;
+}
