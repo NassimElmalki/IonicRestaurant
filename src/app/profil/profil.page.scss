@@ -18,7 +18,17 @@
     font-weight: bolder;
     font-size:x-large;
     color: black;
+    position: absolute;
+    margin-left: 45%;
 }
+
+.h1Headd{
+    font-weight: bolder;
+    font-size:x-large;
+    color: black; 
+    margin-top: -16px;
+}
+
 
 
 ion-searchbar {
@@ -61,3 +71,14 @@ ion-searchbar {
       margin-right: 20px;
   }
 
+  .image {
+      border-radius: 50%;
+      padding: 20%;
+      
+  }
+
+  .divset {
+          /* align-items: center; */
+    display: flex;
+    justify-content: center;
+  }
