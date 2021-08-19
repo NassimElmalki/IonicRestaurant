@@ -1,29 +1,26 @@
 <ion-header>
-
   <ion-toolbar>
-
     <ion-row class="ion-rowHead">
-
       <ion-col class="icon-back" size="1">
         <ion-icon name="arrow-back-outline"></ion-icon>
       </ion-col>
-
       <ion-col size="3">
-        <h6>Profil</h6>
+        <h6>profil</h6>
       </ion-col>
-
       <ion-col size="6">
         <ion-searchbar></ion-searchbar>
       </ion-col>
-
       <ion-col size="1" class="icon-compte">
-        <ion-icon class="icon-compte" src="../../assets/icon/LOGO.svg"></ion-icon>
+
+
+        <ion-select interface="popover">
+          <ion-select-option value="nes">Profil </ion-select-option>
+          <ion-select-option value="n64">Paramétres</ion-select-option>
+          <ion-select-option value="ps">Log out</ion-select-option>
+        </ion-select>
       </ion-col>
-
     </ion-row>
-
   </ion-toolbar>
-
 </ion-header>
 
 
@@ -45,7 +42,7 @@
       
     </ion-col>
 
-    <ion-col size="4" class="tt">
+    <ion-col size="4" class="col">
 
 
       <ion-item lines="none" style="margin-bottom: 20px;">
@@ -55,12 +52,13 @@
 
       <ion-item lines="none">
         <ion-label position="stacked" class="label-input">Nom du serveur</ion-label>
+
         <ion-input class="input-custom" type="text" placeholder="Tapez ici"></ion-input>
       </ion-item>
 
     </ion-col>
 
-    <ion-col size="4" class="tt">
+    <ion-col size="4" class="col">
 
       <ion-item lines="none" style="margin-bottom: 20px;">
         <ion-label position="stacked" class="label-input">Numero du table</ion-label>
@@ -86,10 +84,10 @@
     <ion-col size="4">
     </ion-col>
 
-    <ion-col size="4" class="tt">
+    <ion-col size="4" class="col">
     </ion-col>
 
-    <ion-col size="4" class="tt">
+    <ion-col size="4" class="col">
     </ion-col>
 
   </ion-row>

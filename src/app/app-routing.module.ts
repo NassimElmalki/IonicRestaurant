@@ -26,6 +26,10 @@ const routes: Routes = [
     path: 'fin-commande',
     loadChildren: () => import('./fin-commande/fin-commande.module').then( m => m.FinCommandePageModule)
   },
+  {
+    path: 'paiement',
+    loadChildren: () => import('./paiement/paiement.module').then( m => m.PaiementPageModule)
+  },
 
 ];
 
