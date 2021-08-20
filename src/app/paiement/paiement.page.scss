@@ -33,36 +33,46 @@ ion-searchbar{
 }
 
 ion-toggle {
-    --background: #D5D8DC;
-    --background-checked: #74B4C8;
-    --handle-background: #74B4C8;
-    --handle-background-checked: #2D93B2;
-    margin-left: 150px;
-    margin-top:-12px;
+  --background: #D5D8DC;
+  --background-checked: #74B4C8;
+  --handle-background: #74B4C8;
+  --handle-background-checked: #2D93B2;
+  margin-left: 183px;
+  margin-top: -11px;
+  size: 20px;
+  width: 60px;
   }
   .hh {
-    margin-left: 28px;
+    margin-left: 62px;
     font-family: system-ui;
     font-style: italic;
-    margin-top: 76px;
+    margin-top: 75px;
     margin-bottom: -40px;
+    font-size: larger;
   }
 
   .h {
-    margin-left: 229px;
+    margin-left: 263px;
     font-family: system-ui;
     font-style: italic;
     margin-bottom: -5px;
+    font-size: larger;
   }
 
   
   img {
     height: 73px;
-    margin-left: 142px;
-    margin-top: 161px;
-    margin-bottom: -80px;
+    margin-left: 178px;
+    margin-top: 57px;
+    margin-bottom: -85px;
   }
 
   .center {
     margin-top: 53px;
+  }
+
+  ion-button {
+    width: 323px;
+    margin-left: 61px;
+    margin-top: 18px;
   }
