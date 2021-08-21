@@ -37,10 +37,11 @@ ion-toggle {
   --background-checked: #74B4C8;
   --handle-background: #74B4C8;
   --handle-background-checked: #2D93B2;
-  margin-left: 183px;
-  margin-top: -11px;
-  size: 20px;
-  width: 60px;
+  margin-left: 172px;
+  margin-top: -24px;
+  /* size: 20px; */
+  width: 59px;
+  height: 31px;
   }
   .hh {
     margin-left: 62px;
@@ -76,3 +77,21 @@ ion-toggle {
     margin-left: 61px;
     margin-top: 18px;
   }
+
+  .label-input {
+    font-size: small;
+    font-weight: bolder;
+    margin-top: 89px;
+    margin-bottom: -83px;
+  }
+
+.input-custom {
+  border: 1px solid #EAECEE;
+  border-radius: 16px;
+  --padding-start: 11px;
+  --padding-end: 36px;
+  background-color: #EAECEE;
+  margin-top: 90px;
+  width: 400px;
+  height: 90px;
+}
