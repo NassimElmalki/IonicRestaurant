@@ -21,13 +21,23 @@
     margin-right: 329px;
 }
 
-ion-select{
-    color: transparent;
-    height: 50px;
-    width: 100px;
-    background: url('../../assets/icon/LOGO.svg') no-repeat center;
+h6 {
+  font-family: system-ui;
+  color: gray;
+  margin-top: 18px;
 }
 
+ion-select{
+  
+  background: url('../../assets/icon/LOGO.svg') no-repeat center;
+
+  color: transparent;
+  height: 61px;
+  width: 61px;
+background-color: #EAECEE;
+  border-radius: 68%;
+  margin-left: 26px;
+}
 ion-searchbar{
     margin-top: 5px;
 }
@@ -76,6 +86,7 @@ ion-toggle {
     width: 323px;
     margin-left: 61px;
     margin-top: 18px;
+    font-size: medium;
   }
 
   .label-input {
@@ -96,12 +107,24 @@ ion-toggle {
   height: 90px;
 }
 
+ion-icon {
+  margin-left: -3px;
+margin-top: 3px;
+}
+
+ion-avatar {
+  background-color: #EAECEE;
+margin-top: 9px;
+margin-left: 22px;
+margin-right: 53px;
+}
+
 .divfin {
   border-radius: 30px;
   margin-top: 70px;
-  margin-left: 40px;
+  margin-left: 16px;
   border-style: ridge;
-  margin-right: 72px;
+  margin-right: 94px;
   padding-top: 3px;
   padding-bottom: 3px;
 }
@@ -110,6 +133,7 @@ ion-toggle {
   height: 13em;
   width: 27em;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .okk {
@@ -167,4 +191,5 @@ h3 {
   position: relative;
   left: 6em;
   bottom: 4em;
+  margin-bottom: -5em;
 }

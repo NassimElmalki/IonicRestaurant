@@ -22,11 +22,35 @@
     margin-left: 57px;
 }
 
+h6 {
+    font-family: system-ui;
+    color: gray;
+    margin-top: 18px;
+  }
+
+ion-icon {
+    margin-left: -3px;
+margin-top: 3px;
+}
+
+ion-avatar {
+    background-color: #EAECEE;
+margin-top: 9px;
+margin-left: 22px;
+margin-right: 53px;
+}
+
+
 ion-select{
-    color: transparent;
-    height: 50px;
-    width: 100px;
+  
     background: url('../../assets/icon/LOGO.svg') no-repeat center;
+
+    color: transparent;
+    height: 61px;
+    width: 61px;
+  background-color: #EAECEE;
+    border-radius: 68%;
+    margin-left: 26px;
 }
 
 ion-searchbar{

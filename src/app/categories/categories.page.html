@@ -1,22 +1,25 @@
 <ion-header>
   <ion-toolbar>
     <ion-row class="ion-rowHead">
-      <ion-col class="icon-back" size="1">
-        <ion-icon name="arrow-back-outline"></ion-icon>
-      </ion-col>
-      <ion-col size="3">
+      <ion-avatar class="ion-margin-start">
+        <ion-col class="icon-back" size="1">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </ion-col>
+      </ion-avatar>
+     
+      <ion-col size="3" class="titre">
         <h6>Aliments et boissson</h6>
       </ion-col>
       <ion-col size="6">
-        <ion-searchbar></ion-searchbar>
+        <ion-searchbar placeholder="Recherche"></ion-searchbar>
       </ion-col>
+
+      
       <ion-col size="1" class="icon-compte">
-
-
         <ion-select interface="popover">
           <ion-select-option value="nes">Profil </ion-select-option>
           <ion-select-option value="n64">Paramétres</ion-select-option>
-          <ion-select-option value="ps">Log out</ion-select-option>
+          <ion-select-option value="ps" aria-hidden="false"  style="color: red;"> Log out </ion-select-option> 
         </ion-select>
       </ion-col>
     </ion-row>

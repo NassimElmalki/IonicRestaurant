@@ -1,18 +1,19 @@
 <ion-header>
   <ion-toolbar>
     <ion-row class="ion-rowHead">
-      <ion-col class="icon-back" size="1">
-        <ion-icon name="arrow-back-outline"></ion-icon>
-      </ion-col>
-      <ion-col size="3">
+      <ion-avatar class="ion-margin-start">
+        <ion-col class="icon-back" size="1">
+          <ion-icon name="arrow-back-outline"></ion-icon>
+        </ion-col>
+      </ion-avatar>
+
+      <ion-col size="3" class="titre">
         <h6>Burger</h6>
       </ion-col>
       <ion-col size="6">
         <ion-searchbar></ion-searchbar>
       </ion-col>
       <ion-col size="1" class="icon-compte">
-
-
         <ion-select interface="popover">
           <ion-select-option value="nes">Profil </ion-select-option>
           <ion-select-option value="n64">Paramétres</ion-select-option>
@@ -24,17 +25,21 @@
 </ion-header>
 
 
-<ion-content>
+<ion-content id="gg">
 
   <ion-text color="secondary">
 
-    <p class="ion-text-center h1Head"> Catégories </p>
+    <p class="ion-text-center h1Head"> Burgers </p>
+    
   </ion-text>
 
   <ion-row class="ion-cat">
     <ion-col class="icon-back" size="3.8">
       <ion-card>
-        <img src="../../assets/icon/6burger.png" />
+      
+          <img  src="../../assets/icon/6burger.png"   onclick="document.getElementById('1').style.display='block';" />
+       
+        <!-- onclick="document.getElementById('gg').style.filter = blur('5px'), grayscale('50%');" -->
       </ion-card>
 
     </ion-col>
@@ -52,4 +57,64 @@
 
   </ion-row>
 
+
+
 </ion-content>
+
+<div class="modal" id="1" > 
+
+ <div class="container">
+
+  <div class="i">
+<img class="imgi" src="../../assets/icon/info.png">
+  </div>
+
+ <div class="pr">
+
+  <div class="kaka">
+
+    <img class="okk" src="../../assets/icon/6burger.png">
+
+    <ion-label>
+      <h2>Cheese burger</h2>
+      <h3>80 DH</h3>
+    </ion-label>
+
+    <div class="achats">
+
+      <ion-button class=" btt bttt" expand="block" shape="round" >
+        -
+      </ion-button>
+      <ion-label>
+        <h3>80 DH</h3>
+      </ion-label>
+      <ion-button class=" btt b"  expand="block" shape="round" >
+        +
+      </ion-button>
+
+    </div>
+    
+  </div>
+
+</div>
+
+<div class="txt">
+
+  <h4 class="text" style="margin-left: 20px; font-size: small;"> Produits........................................... 40 MAD</h4>
+  <h4 class="text" style="margin-left: 20px; font-size: small;">Livraison.......................................... 40 MAD.</h4>
+  <h4 class="text" style="margin-left: 20px; font-size: small;">Total................................................ 40 MAD</h4>
+  
+</div>
+
+<div class="valid">
+
+  <ion-button class="btn-login" expand="block" shape="round" color="secondary">
+    Commander
+  </ion-button>
+
+</div>
+
+ </div>
+
+
+</div>

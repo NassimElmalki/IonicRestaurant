@@ -16,17 +16,157 @@
 
 .h1Head{
     font-weight: bolder;
-    font-size: xx-large;
+    font-size: xxx-large;
     color: black;
+    font-family: system-ui;
+    /* padding: 0pc; */
+    margin-bottom: 37px;
 }
+
 
 ion-select{
-    color: transparent;
-    height: 50px;
-    width: 100px;
+  
     background: url('../../assets/icon/LOGO.svg') no-repeat center;
+
+    color: transparent;
+    height: 61px;
+    width: 61px;
+  background-color: #EAECEE;
+    border-radius: 68%;
+    margin-left: 26px;
 }
 
-ion-searchbar{
-    margin-top: 5px;
+.titre {
+    color: #93A2B6;
+    margin-top: 1px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+    font-size: 16px;
+
+    
 }
+
+
+ion-searchbar{
+    margin-top: 10px;
+    margin-left: 6em;
+    width: 27em;
+    --border-radius:20px;
+    
+}
+
+ion-header{
+    z-index: -1;
+}
+.modal {
+    display: none;
+    height: 100%;
+    width: 50%;
+    margin :auto;
+    background-color: white;
+    color: #000;
+    border:1px ridge grey;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 7em;
+    z-index: 2;
+}
+
+img:active > .modal {
+      filter: blur(5px) grayscale(50%);
+  
+  }
+
+  .h1Head:active ~ .Head{
+    filter: blur(5px) grayscale(50%);
+  }
+  
+
+
+  
+.modal::before{
+    content: "";
+    height: 144px;
+    width: 8px;
+    background: #FFF;
+    position: absolute;
+    top: 40%;
+    right: 32.3em;
+    border-radius: 1em;
+    border: 1px ridge grey;
+
+}
+
+.achats {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 4em;
+    position: relative;
+    /* right: 4em; */
+    right: 3em;
+    width: 12em;
+}
+
+.kaka {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 7em;
+}
+
+.okk {
+    height: 8em;
+
+
+}
+
+.txt {
+    border-radius: 30px;
+    /* border: 1px solid; */
+    /* padding: 0em; */
+    margin-top: 14.5em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-style: ridge;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+.valid {
+    margin-top: 1em;
+    margin-left: 5em;
+    margin-right: 4.8em;
+}
+
+.imgi{
+    width: 3em;
+    margin-left: 27em;
+    margin-top: 8px;
+    border-radius: 26px;
+    background-color: #D5D8DC;
+    
+}
+
+ion-avatar {
+    background-color: #EAECEE;
+margin-top: 9px;
+margin-left: 22px;
+margin-right: 53px;
+}
+
+ion-icon {
+    margin-left: -3px;
+margin-top: 3px;
+}
+
+
+.pr {
+    margin-top: -4em;
+}
+
+///////////////@at-root
+

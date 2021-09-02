@@ -7,9 +7,23 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoriePage implements OnInit {
 
+  modal : String = "none" ;
+
+
   constructor() { }
 
   ngOnInit() {
+    this.modal;
   }
+
+ /*  onClick(){
+    if(this.modal=="none"){
+      document.getElementById('1').style.display='block';
+    }
+    else {
+      document.getElementById('1').style.display='none';
+    }
+   
+  } */
 
 }
